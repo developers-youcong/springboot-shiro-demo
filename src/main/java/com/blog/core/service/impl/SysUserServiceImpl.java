@@ -9,16 +9,14 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 /**
  * @Description 系统用户业务实现
- * @Author Sans
- * @CreateTime 2019/6/14 15:57
+ * @Author youcong
  */
 @Service("sysUserService")
 public class SysUserServiceImpl extends ServiceImpl<SysUserDao, SysUserEntity> implements SysUserService {
 
     /**
      * 根据用户名查询实体
-     * @Author Sans
-     * @CreateTime 2019/6/14 16:30
+     * @Author youcong
      * @Param  username 用户名
      * @Return SysUserEntity 用户实体
      */
